@@ -16,20 +16,20 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "techhan blog"
+title                    : "santa9405 blog"
 title_separator          : "-"
-name                     : "techhan"
+name                     : "santa9405"
 description              : "techhan's dev task notes."
 url                      : "https://santa9405.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "techhan/techhan.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "santa9405/santa9405.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : techhan # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : santa9405 # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
