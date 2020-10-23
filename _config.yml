@@ -64,7 +64,7 @@ search_full_content      : true # true, false (default)
 search_provider          : algolia # lunr (default), algolia, google
 algolia:
   application_id         : D1F0JN8WSB # YOUR_APPLICATION_ID
-  index_name             : techhan # YOUR_INDEX_NAME
+  index_name             : santa9405 # YOUR_INDEX_NAME
   search_only_api_key    : cc97cb5ce70e54357d7de0189d6b237e # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
@@ -102,20 +102,20 @@ analytics:
 
 # Site Author
 author:
-  name             : "techhan"
+  name             : "santa9405"
   avatar           : "/assets/img/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Always a Student"
   location         : "Seoul"
   email            : #"imreplay@imreplay.com"
   uri              : 
-  home             : "https://techhan.github.io" # null (default), "absolute or relative url to link to author home"
+  home             : "https://santa9405.github.io" # null (default), "absolute or relative url to link to author home"
   bitbucket        : #"imreplay"
   codepen          :
   dribbble         :
   flickr           :
   facebook         : #"imreplay08"
   foursquare       :
-  github           : "techhan"
+  github           : "santa9405"
   gitlab           : #"imreplay"
   google_plus      :
   keybase          :
