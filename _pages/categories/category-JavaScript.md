@@ -1,7 +1,7 @@
 ---
 title: "Post about JavaScript"
 layout: archive
-permalink: /categories/javascript
+permalink: /categories/Javascript
 author_profile: true
 sidebar_main: true
 ---
