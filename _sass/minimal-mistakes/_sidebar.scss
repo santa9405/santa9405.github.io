@@ -128,12 +128,12 @@
     }
   }
   //이미지 회전
-  img:hover {
+  //img:hover {
     //-ms-transform: scale(1.5); /* IE 9 */
     //-webkit-transform: scale(1.5); /* Safari 3-8 */
-    transition-duration: 1s; //회전 시간
-    transform: rotate(200deg); //회전률
-    }
+    //transition-duration: 1s; //회전 시간
+    //transform: rotate(200deg); //회전률
+  //  }
 }
 
 
