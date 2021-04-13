@@ -15,7 +15,7 @@ toc : true
 
 <br><br>
 
-### 풀이
+### 풀이(if문)
 
 ``` java
 class Solution {
@@ -44,7 +44,7 @@ class Solution {
 
 <br><br>
 
-### 풀이
+### 풀이(삼항 연산자)
 
 ``` java
 class Solution {
