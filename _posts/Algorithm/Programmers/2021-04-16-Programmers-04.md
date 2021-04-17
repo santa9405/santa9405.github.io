@@ -1,6 +1,6 @@
 ---
 title: "Programmers - JAVA"
-excerpt: "같은 숫자는 싫어"
+excerpt: "나누어 떨어지는 숫자 배열"
 categories: 
   - Algorithm 
 tags: 
@@ -9,37 +9,41 @@ tags:
 toc : true
 ---
 
-## 같은 숫자는 싫어
-![image](https://user-images.githubusercontent.com/72387870/114882269-c11d0e80-9e3e-11eb-85e2-c3d2b6036f10.png)
+## 나누어 떨어지는 숫자 배열
+![image](https://user-images.githubusercontent.com/72387870/115020244-4662fa80-9ef5-11eb-9f43-162498397a72.png)
 
 <br><br>
 
 ### 풀이
 
 ``` java
-public class Solution {
-    public int[] solution(int []arr) {
-        int current = 10;
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        for(int i = 0 ; i < arr.length; i++){
-            if(arr[i] != current){
-                list.add(arr[i]);
-                current = arr[i];
-            }
-        }    
-        int[] answer = new int[list.size()];    
-        for(int i = 0; i < list.size(); i++){
-            answer[i] = list.get(i);
+import java.util.*;
+
+class Solution {
+    public int[] solution(int[] arr, int divisor) {
+        ArrayList<Integer> num = new ArrayList<Integer>();
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] % divisor == 0)   num.add(arr[i]);
         }
+        if(num.isEmpty()){
+            num.add(-1);
+        }
+
+        int[] answer = new int[num.size()];
+        for(int i = 0; i < num.size(); i++){
+            answer[i] = num.get(i);
+        }
+        
+        Arrays.sort(answer);
+        
         return answer;
     }
 }
 ```
 <br/><br/>
 
-- current의 값을 10으로 주어 for문 안의 if문이 처음에는 무조건 실행된다.
-- if문이 실행되면 arr의 i번째 값이 list에 추가된다.
-- 그 후 current의 값을 arr의 i번째 값으로 변경하여 if문의 조건이 달라지도록 했다.
-- answer배열 길이를 리스트의 사이즈만큼 생성한 후 list에 있는 데이터를 answer배열에 옮겨주었다.
+- arr의 배열 i번째와 divisor를 나누었을 때 나머지가 0이면 num에 추가!
+- 포문이 끝나고 나누어 떨어지는 요소가 없다면 -1 추가!
+- 리스트를 배열로 변환 후 정렬!
 
 <br><br>
